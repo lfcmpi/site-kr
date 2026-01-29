@@ -47,7 +47,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center">
             <a href="#hero" aria-label="KnowRisk Home" onClick={handleLinkClick}>
-                <Logo className="h-7 text-white" />
+                <Logo className="h-11" />
             </a>
           </div>
 
