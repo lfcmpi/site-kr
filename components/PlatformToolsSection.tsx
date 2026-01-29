@@ -30,7 +30,7 @@ const industries = [
       'Análise geológica inteligente para prospecção.',
       'Monitoramento de segurança em tempo real.'
     ],
-    image: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=1170&q=80'
+    image: '/imagens/mineracao.png'
   },
   {
     id: 'educacao',
