@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           
           <div className="container mx-auto px-6 text-center z-10 relative">
             {/* Minimal Badge */}
-            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-12 animate-fade-in">
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mt-8 mb-12 animate-fade-in">
                 <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_8px_#22d3ee]"></div>
                 <span className="text-slate-400 text-[10px] font-bold uppercase tracking-[0.3em]">IA & Inteligência Humana</span>
             </div>
@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
                 href="#soluções" 
                 className="group relative flex items-center gap-4 bg-cyan-600 text-white font-bold py-5 px-10 rounded-full hover:bg-cyan-500 transition-all duration-500 shadow-[0_0_40px_rgba(8,145,178,0.3)] hover:shadow-[0_0_60px_rgba(8,145,178,0.5)]"
               >
-                Conheça o KnowYou
+                Conheça Nossas Soluções
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 group-hover:translate-x-2 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>

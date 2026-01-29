@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 py-8 w-full">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <div>
-            <Logo className="h-6 text-slate-400" />
+            <Logo className="h-7" />
           </div>
           <div className="text-center md:text-right flex items-center space-x-6">
             <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} KnowRISK. Todos os direitos reservados.</p>

@@ -2,25 +2,17 @@
 import React from 'react';
 
 export const LogoIcon = ({ className }: { className?: string }) => (
-    <svg
-        className={className}
-        viewBox="0 0 100 100"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-    >
-        {/* Left Side Chevron - Not touching at top/bottom */}
-        <path d="M46 5L5 50L46 95V82L18 50L46 18V5Z" />
-
-        {/* Right Side Chevron - Not touching at top/bottom */}
-        <path d="M54 5L95 50L54 95V82L82 50L54 18V5Z" />
-    </svg>
+  <img
+    src="/knowrisk-logo.svg"
+    alt="KnowRisk"
+    className={className}
+  />
 );
 
 
 export const Logo = ({ className }: { className?: string }) => (
   <img
-    src="/logos/knowrisk-logo-white-bg.png"
+    src="/knowrisk-logo-with-name.svg"
     alt="KnowRisk"
     className={className}
   />
